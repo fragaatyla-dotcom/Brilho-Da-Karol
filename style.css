@@ -36,20 +36,34 @@ h1{
 .botao {
     width: 300px;
     padding: 16px;
-    background-color: #83828275;
-    color: #000000;
+    background-color: transparent;
+    color: #553d0a;
+    border: 1.5px solid #c9a84c;
     text-decoration: none;
-    text-align: center;
+    align-items: center;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 500;
     transition: all 0.3s ease;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
 }
 
 .botao:hover {
-    background-color: #e0caaede;
-    color: #000000;
+    background-color: rgba(201, 168, 76, 0.15);
+    color: #4a3200;
     cursor: pointer;
     transform: translateY(-4px);
+    border-color: #a87c2a;
 }
 
+.info {
+    color: #7a5a10;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.3px;
+    opacity: 0.85;
+}
